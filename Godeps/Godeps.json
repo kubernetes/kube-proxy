@@ -60,95 +60,95 @@
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/api/resource",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/apis/config",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/apis/config/v1alpha1",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/apis/meta/v1",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/conversion",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/conversion/queryparams",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/fields",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/labels",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/runtime",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/runtime/schema",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/selection",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/types",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/errors",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/intstr",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/json",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/naming",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/net",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/runtime",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/sets",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/validation",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/util/validation/field",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/pkg/watch",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery/third_party/forked/golang/reflect",
-			"Rev": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+			"Rev": "a00743c2fc9ef4b057da2ec96b056f7fe953ec0d"
 		}
 	]
 }
