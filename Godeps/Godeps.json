@@ -140,11 +140,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base/config",
-			"Rev": "64afe67b2e09561105eac81c516c736906110fe3"
+			"Rev": "f9f76e4701c2c16d3e9db359016d9c4505290fac"
 		},
 		{
 			"ImportPath": "k8s.io/component-base/config/v1alpha1",
-			"Rev": "64afe67b2e09561105eac81c516c736906110fe3"
+			"Rev": "f9f76e4701c2c16d3e9db359016d9c4505290fac"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
