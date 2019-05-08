@@ -7,6 +7,14 @@
 	],
 	"Deps": [
 		{
+			"ImportPath": "github.com/beorn7/perks",
+			"Rev": "3ac7bf7a47d1"
+		},
+		{
+			"ImportPath": "github.com/blang/semver",
+			"Rev": "v3.5.0"
+		},
+		{
 			"ImportPath": "github.com/davecgh/go-spew",
 			"Rev": "v1.1.1"
 		},
@@ -63,6 +71,10 @@
 			"Rev": "ab8a2e0c74be"
 		},
 		{
+			"ImportPath": "github.com/matttproud/golang_protobuf_extensions",
+			"Rev": "v1.0.1"
+		},
+		{
 			"ImportPath": "github.com/modern-go/concurrent",
 			"Rev": "bacd9c7ef1dd"
 		},
@@ -85,6 +97,22 @@
 		{
 			"ImportPath": "github.com/pmezard/go-difflib",
 			"Rev": "v1.0.0"
+		},
+		{
+			"ImportPath": "github.com/prometheus/client_golang",
+			"Rev": "v0.9.2"
+		},
+		{
+			"ImportPath": "github.com/prometheus/client_model",
+			"Rev": "5c3871d89910"
+		},
+		{
+			"ImportPath": "github.com/prometheus/common",
+			"Rev": "4724e9255275"
+		},
+		{
+			"ImportPath": "github.com/prometheus/procfs",
+			"Rev": "1dc9a6cbc91a"
 		},
 		{
 			"ImportPath": "github.com/spf13/pflag",
@@ -136,11 +164,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "11f1676e3da4"
+			"Rev": "a3da69d3723c"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "9fe063da3132"
+			"Rev": "40efa6d42997"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
