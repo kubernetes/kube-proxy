@@ -8,7 +8,7 @@
 	"Deps": [
 		{
 			"ImportPath": "github.com/beorn7/perks",
-			"Rev": "4c0e84591b9a"
+			"Rev": "3a771d992973"
 		},
 		{
 			"ImportPath": "github.com/blang/semver",
@@ -164,11 +164,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "ad85901afca0"
+			"Rev": "5b67e417bf61"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "91ee9e34fdd1"
+			"Rev": "549f1afd0bc9"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
