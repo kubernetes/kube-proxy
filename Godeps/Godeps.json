@@ -168,15 +168,15 @@
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "e59c2fb0a8e5"
+			"Rev": "859a0ba5e71a"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "c51d9557ffd0"
+			"Rev": "103ccccb7a11"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
-			"Rev": "v0.3.1"
+			"Rev": "v0.3.2"
 		},
 		{
 			"ImportPath": "k8s.io/kube-openapi",
