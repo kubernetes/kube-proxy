@@ -28,7 +28,7 @@
 		},
 		{
 			"ImportPath": "github.com/evanphx/json-patch",
-			"Rev": "5858425f7550"
+			"Rev": "v4.2.0"
 		},
 		{
 			"ImportPath": "github.com/fsnotify/fsnotify",
@@ -52,7 +52,7 @@
 		},
 		{
 			"ImportPath": "github.com/google/gofuzz",
-			"Rev": "24818f796faf"
+			"Rev": "v1.0.0"
 		},
 		{
 			"ImportPath": "github.com/google/uuid",
@@ -72,7 +72,7 @@
 		},
 		{
 			"ImportPath": "github.com/json-iterator/go",
-			"Rev": "ab8a2e0c74be"
+			"Rev": "v1.1.6"
 		},
 		{
 			"ImportPath": "github.com/matttproud/golang_protobuf_extensions",
@@ -92,11 +92,11 @@
 		},
 		{
 			"ImportPath": "github.com/onsi/ginkgo",
-			"Rev": "v1.6.0"
+			"Rev": "v1.8.0"
 		},
 		{
 			"ImportPath": "github.com/onsi/gomega",
-			"Rev": "5533ce8a0da3"
+			"Rev": "v1.5.0"
 		},
 		{
 			"ImportPath": "github.com/pmezard/go-difflib",
@@ -120,11 +120,15 @@
 		},
 		{
 			"ImportPath": "github.com/spf13/pflag",
-			"Rev": "v1.0.1"
+			"Rev": "v1.0.3"
+		},
+		{
+			"ImportPath": "github.com/stretchr/objx",
+			"Rev": "v0.1.0"
 		},
 		{
 			"ImportPath": "github.com/stretchr/testify",
-			"Rev": "v1.2.2"
+			"Rev": "v1.3.0"
 		},
 		{
 			"ImportPath": "golang.org/x/net",
@@ -164,15 +168,15 @@
 		},
 		{
 			"ImportPath": "gopkg.in/yaml.v2",
-			"Rev": "v2.2.1"
+			"Rev": "v2.2.2"
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "6a5db36e93ad"
+			"Rev": "d16981aedf33"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "4062e14deebe"
+			"Rev": "e5083e713460"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
