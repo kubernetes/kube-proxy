@@ -172,7 +172,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "e3d0eeb0e901"
+			"Rev": "eb4c16e365ca"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
