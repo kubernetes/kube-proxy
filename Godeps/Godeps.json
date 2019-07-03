@@ -131,6 +131,10 @@
 			"Rev": "1dc9a6cbc91a"
 		},
 		{
+			"ImportPath": "github.com/spf13/afero",
+			"Rev": "v1.2.2"
+		},
+		{
 			"ImportPath": "github.com/spf13/pflag",
 			"Rev": "v1.0.3"
 		},
@@ -184,11 +188,11 @@
 		},
 		{
 			"ImportPath": "k8s.io/apimachinery",
-			"Rev": "bc5732d141a8"
+			"Rev": "05b5762916b3"
 		},
 		{
 			"ImportPath": "k8s.io/component-base",
-			"Rev": "327675bd8ec3"
+			"Rev": "e0653b7050bb"
 		},
 		{
 			"ImportPath": "k8s.io/klog",
@@ -200,7 +204,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/utils",
-			"Rev": "c2654d5206da"
+			"Rev": "c55fbcfc754a"
 		},
 		{
 			"ImportPath": "sigs.k8s.io/yaml",
