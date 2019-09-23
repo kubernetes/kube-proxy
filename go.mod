@@ -6,7 +6,7 @@ go 1.12
 
 require (
 	k8s.io/apimachinery v0.0.0-20190923155427-ec87dd743e08
-	k8s.io/component-base v0.0.0-20190923160219-c897bbc27d33
+	k8s.io/component-base v0.0.0-20190923235848-ef75bdfd7a61
 )
 
 replace (
@@ -20,5 +20,5 @@ replace (
 	k8s.io/api => k8s.io/api v0.0.0-20190923155552-eac758366a00
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190923155427-ec87dd743e08
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20190923155754-2bd34d193bac
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20190923160219-c897bbc27d33
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20190923235848-ef75bdfd7a61
 )
