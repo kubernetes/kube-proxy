@@ -6,7 +6,7 @@ go 1.12
 
 require (
 	k8s.io/apimachinery v0.0.0-20191014065749-fb3eea214746
-	k8s.io/component-base v0.0.0-20191014071552-ca590c444ad5
+	k8s.io/component-base v0.0.0-20191015150114-d3cdbddd0328
 )
 
 replace (
@@ -17,8 +17,8 @@ replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190209173611-3b5209105503
 	golang.org/x/text => golang.org/x/text v0.3.1-0.20181227161524-e6919f6577db
 	golang.org/x/time => golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
-	k8s.io/api => k8s.io/api v0.0.0-20191010143144-fbf594f18f80
+	k8s.io/api => k8s.io/api v0.0.0-20191015145727-35675025e55c
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20191014065749-fb3eea214746
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20191014070654-bd505ee787b2
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20191014071552-ca590c444ad5
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20191015145958-347e4def6c74
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20191015150114-d3cdbddd0328
 )
