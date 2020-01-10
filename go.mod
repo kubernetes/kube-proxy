@@ -5,15 +5,16 @@ module k8s.io/kube-proxy
 go 1.13
 
 require (
-	k8s.io/apimachinery v0.0.0-20191221033353-3253b0a30d67
-	k8s.io/component-base v0.0.0-20191222114205-a6e74ff2e316
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 replace (
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
 	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20191221033533-72223a9f9901
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20191221033353-3253b0a30d67
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20191222113738-1b1a35e41a57
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20191222114205-a6e74ff2e316
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kube-proxy => ../kube-proxy
 )
