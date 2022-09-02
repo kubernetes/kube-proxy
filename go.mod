@@ -5,8 +5,8 @@ module k8s.io/kube-proxy
 go 1.19
 
 require (
-	k8s.io/apimachinery v0.0.0-20220826103007-349dcdf5c89f
-	k8s.io/component-base v0.0.0-20220826104112-4ea07d4c4650
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 require (
@@ -21,7 +21,7 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/klog/v2 v2.70.1 // indirect
+	k8s.io/klog/v2 v2.80.0 // indirect
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
@@ -29,8 +29,9 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220826103217-d10499434b52
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220826103007-349dcdf5c89f
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220826103528-35ead05f62d6
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220826104112-4ea07d4c4650
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kube-proxy => ../kube-proxy
 )
