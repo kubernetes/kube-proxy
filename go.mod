@@ -5,8 +5,8 @@ module k8s.io/kube-proxy
 go 1.19
 
 require (
-	k8s.io/apimachinery v0.0.0
-	k8s.io/component-base v0.0.0
+	k8s.io/apimachinery v0.0.0-20230303235433-5b1cff80ea06
+	k8s.io/component-base v0.0.0-20230304000858-ddedd087ad1e
 )
 
 require (
@@ -32,9 +32,8 @@ require (
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/client-go => ../client-go
-	k8s.io/component-base => ../component-base
-	k8s.io/kube-proxy => ../kube-proxy
+	k8s.io/api => k8s.io/api v0.0.0-20230303235756-fc1b77c3f4ab
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230303235433-5b1cff80ea06
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230304000202-d39f8291fc57
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20230304000858-ddedd087ad1e
 )
