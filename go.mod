@@ -5,8 +5,8 @@ module k8s.io/kube-proxy
 go 1.20
 
 require (
-	k8s.io/apimachinery v0.0.0-20230612171306-38152d47d786
-	k8s.io/component-base v0.0.0-20230612180129-f0f6396631bf
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 require (
@@ -18,7 +18,7 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/rogpeppe/go-internal v1.10.0 // indirect
+	github.com/rogpeppe/go-internal v1.11.0 // indirect
 	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/text v0.8.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
@@ -32,8 +32,9 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230612172207-d65e98cc80fa
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230612171306-38152d47d786
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230612174955-22da8a58bee1
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230612180129-f0f6396631bf
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kube-proxy => ../kube-proxy
 )
