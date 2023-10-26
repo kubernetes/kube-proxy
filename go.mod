@@ -5,8 +5,8 @@ module k8s.io/kube-proxy
 go 1.21.3
 
 require (
-	k8s.io/apimachinery v0.0.0-20231026091025-0785eb2fbd30
-	k8s.io/component-base v0.0.0-20231026092130-42e32587411a
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 require (
@@ -16,7 +16,7 @@ require (
 	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
@@ -44,8 +44,9 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231026091235-25009ae79765
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231026091025-0785eb2fbd30
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231026091529-4028f5ba6e18
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231026092130-42e32587411a
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kube-proxy => ../kube-proxy
 )
