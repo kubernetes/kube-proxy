@@ -5,8 +5,8 @@ module k8s.io/kube-proxy
 go 1.21.3
 
 require (
-	k8s.io/apimachinery v0.0.0-20231031211055-458fd90fd7a5
-	k8s.io/component-base v0.0.0-20231027174419-7eefecff8918
+	k8s.io/apimachinery v0.0.0-20231101011123-96ae302100a8
+	k8s.io/component-base v0.0.0-20231101012453-36eaf6a3a115
 )
 
 require (
@@ -39,13 +39,13 @@ require (
 	k8s.io/klog/v2 v2.100.1 // indirect
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.3.0 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20231031211309-14869ee3b213
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231031211055-458fd90fd7a5
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20231031211617-965bc8db9daa
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20231027174419-7eefecff8918
+	k8s.io/api => k8s.io/api v0.0.0-20231101011356-6106c48f363d
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20231101011123-96ae302100a8
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20231101011735-7523a344f785
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20231101012453-36eaf6a3a115
 )
