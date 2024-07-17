@@ -44,6 +44,6 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace k8s.io/api => k8s.io/api v0.0.0-20240716223232-b1818c55a2cf
+replace k8s.io/api => k8s.io/api v0.0.0-20240717223447-7ff5716b9e45
 
 replace k8s.io/client-go => k8s.io/client-go v0.0.0-20240716224050-37121f3f0017
