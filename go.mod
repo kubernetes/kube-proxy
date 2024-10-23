@@ -5,8 +5,8 @@ module k8s.io/kube-proxy
 go 1.21
 
 require (
-	k8s.io/apimachinery v0.0.0-20240404161013-3e7c65a7bc4d
-	k8s.io/component-base v0.0.0-20240404163600-1c2da834f8fb
+	k8s.io/apimachinery v0.29.10
+	k8s.io/component-base v0.29.10
 )
 
 require (
