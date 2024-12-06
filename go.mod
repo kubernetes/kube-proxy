@@ -6,13 +6,11 @@ go 1.23.0
 
 godebug default=go1.23
 
-godebug winreadlinkvolume=0
-
 godebug winsymlink=0
 
 require (
-	k8s.io/apimachinery v0.0.0-20241204221643-a0ca8148bde6
-	k8s.io/component-base v0.0.0-20241204223417-d3f16c547313
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 require (
@@ -50,4 +48,11 @@ require (
 	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
 )
