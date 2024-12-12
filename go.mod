@@ -9,7 +9,7 @@ godebug default=go1.23
 godebug winsymlink=0
 
 require (
-	k8s.io/apimachinery v0.0.0-20241206181643-8c60292e48e4
+	k8s.io/apimachinery v0.0.0-20241212054420-6e120e1a46e1
 	k8s.io/component-base v0.0.0-20241206184758-96018783480f
 )
 
