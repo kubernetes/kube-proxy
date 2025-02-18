@@ -9,8 +9,8 @@ godebug default=go1.23
 godebug winsymlink=0
 
 require (
-	k8s.io/apimachinery v0.0.0-20250211114440-46c230ea8d65
-	k8s.io/component-base v0.0.0-20250206205508-05a58ccfe08d
+	k8s.io/apimachinery v0.33.0-alpha.2
+	k8s.io/component-base v0.33.0-alpha.2
 )
 
 require (
@@ -48,9 +48,4 @@ require (
 	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
-)
-
-replace (
-	k8s.io/api => k8s.io/api v0.0.0-20250211114750-4629116ef3ab
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20250211115216-8683d2da3be9
 )
