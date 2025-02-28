@@ -7,8 +7,8 @@ go 1.24.0
 godebug default=go1.24
 
 require (
-	k8s.io/apimachinery v0.0.0-20250227200116-758f86daa84e
-	k8s.io/component-base v0.0.0-20250227201942-06fa090a27ec
+	k8s.io/apimachinery v0.0.0-20250228200112-609a76591dd3
+	k8s.io/component-base v0.0.0-20250228201811-a569d0ac7471
 )
 
 require (
@@ -37,8 +37,8 @@ require (
 	go.opentelemetry.io/otel v1.28.0 // indirect
 	go.opentelemetry.io/otel/trace v1.28.0 // indirect
 	golang.org/x/net v0.33.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	google.golang.org/protobuf v1.35.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
