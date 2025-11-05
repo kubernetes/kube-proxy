@@ -7,8 +7,8 @@ go 1.25.0
 godebug default=go1.25
 
 require (
-	k8s.io/apimachinery v0.0.0-20251101151749-05faff5a672c
-	k8s.io/component-base v0.0.0-20251101153715-0c7fa86d2ef3
+	k8s.io/apimachinery v0.35.0-alpha.3
+	k8s.io/component-base v0.35.0-alpha.3
 )
 
 require (
