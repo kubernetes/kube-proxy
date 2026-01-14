@@ -7,8 +7,8 @@ go 1.25.0
 godebug default=go1.25
 
 require (
-	k8s.io/apimachinery v0.0.0-20260114012332-8931c298fc6d
-	k8s.io/component-base v0.0.0-20260114014353-b07a9541dc84
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 require (
@@ -35,7 +35,7 @@ require (
 	go.opentelemetry.io/otel v1.38.0 // indirect
 	go.opentelemetry.io/otel/trace v1.38.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.3 // indirect
-	golang.org/x/net v0.48.0 // indirect
+	golang.org/x/net v0.49.0 // indirect
 	golang.org/x/sys v0.40.0 // indirect
 	golang.org/x/text v0.33.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
@@ -47,4 +47,11 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.1 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
 )
