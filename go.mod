@@ -8,7 +8,7 @@ godebug default=go1.26
 
 require (
 	k8s.io/apimachinery v0.0.0
-	k8s.io/component-base v0.0.0-20260313115336-089d54029606
+	k8s.io/component-base v0.0.0
 )
 
 require (
@@ -29,7 +29,7 @@ require (
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.67.5 // indirect
 	github.com/prometheus/procfs v0.19.2 // indirect
-	github.com/spf13/cobra v1.10.0 // indirect
+	github.com/spf13/cobra v1.10.2 // indirect
 	github.com/spf13/pflag v1.0.9 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	go.opentelemetry.io/otel v1.40.0 // indirect
@@ -50,7 +50,9 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20260317073624-369111fb8de0
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20260317071512-f00b254e34da
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20260317075959-9dc763689d1a
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/streaming => ../streaming
 )
