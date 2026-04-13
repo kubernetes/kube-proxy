@@ -8,7 +8,7 @@ godebug default=go1.26
 
 require (
 	k8s.io/apimachinery v0.0.0-20260414135623-72791e98891a
-	k8s.io/component-base v0.0.0-20260414155922-078ba39ba6db
+	k8s.io/component-base v0.0.0-20260414155923-12f6271c1572
 )
 
 require (
@@ -32,8 +32,8 @@ require (
 	github.com/spf13/cobra v1.10.2 // indirect
 	github.com/spf13/pflag v1.0.9 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
-	go.opentelemetry.io/otel v1.40.0 // indirect
-	go.opentelemetry.io/otel/trace v1.40.0 // indirect
+	go.opentelemetry.io/otel v1.41.0 // indirect
+	go.opentelemetry.io/otel/trace v1.41.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.3 // indirect
 	golang.org/x/net v0.49.0 // indirect
 	golang.org/x/sys v0.40.0 // indirect
