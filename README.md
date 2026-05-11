@@ -4,7 +4,7 @@
 > See [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
 
 # kube-proxy
-## Coming Soon!
+## Coming Soon - stay tuned!!!
 
 Implements https://github.com/luxas/community/blob/master/keps/sig-cluster-lifecycle/0014-20180707-componentconfig-api-types-to-staging.md#kube-proxy-changes
 
