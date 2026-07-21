@@ -7,8 +7,8 @@ go 1.26.0
 godebug default=go1.26
 
 require (
-	k8s.io/apimachinery v0.0.0-20260721185636-e15ad7c70234
-	k8s.io/component-base v0.0.0-20260721152320-ea1331da5b49
+	k8s.io/apimachinery v0.0.0-20260721185639-d7ad413f224b
+	k8s.io/component-base v0.0.0-20260721193929-349fbe06359c
 )
 
 require (
@@ -41,7 +41,7 @@ require (
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	k8s.io/klog/v2 v2.140.0 // indirect
-	k8s.io/kube-openapi v0.0.0-20260618221249-bc653b64f974 // indirect
+	k8s.io/kube-openapi v0.0.0-20260721132016-d427ff9ee9ad // indirect
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd // indirect
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
